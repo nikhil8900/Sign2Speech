@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:#eef3fb;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+    padding:30px;
+}
+
+h1{
+    font-size:54px;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:18px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.button-group{
+    margin-bottom:35px;
+}
+
+button{
+
+    width:260px;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:18px;
+
+    color:white;
+
+    cursor:pointer;
+
+    margin:0 15px;
+
+    transition:.3s;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+
+}
+
+.start-btn{
+    background:#16a34a;
+}
+
+.start-btn:hover{
+    background:#15803d;
+    transform:translateY(-2px);
+}
+
+.stop-btn{
+    background:#dc2626;
+}
+
+.stop-btn:hover{
+    background:#b91c1c;
+    transform:translateY(-2px);
+}
+
+.camera-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    min-height:520px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
+
+.camera-card img{
+
+    width:100%;
+
+}
+
+#placeholder{
+
+    color:#555;
+
+}
+
+#placeholder h2{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+#placeholder p{
+
+    font-size:22px;
+
+}
+
+.info{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.box{
+
+    width:250px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.12);
+
+}
+
+.box h3{
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+
+}
+
+footer{
+
+    margin-top:45px;
+
+    color:#777;
+
+    font-size:15px;
+
+}
